@@ -1,0 +1,10 @@
+至纯源石 orig-prime
+源石锭 orig-ingot
+合成玉 orundum
+采购凭证 shop-voucher
+高级凭证 dist-cert
+资质凭证 comm-cert
+数据契约 data-contract
+理智 sanity
+信用点 credit
+龙门币 LMD

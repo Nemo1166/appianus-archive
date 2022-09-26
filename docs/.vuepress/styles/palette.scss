@@ -1,0 +1,18 @@
+// you can change colors here
+$theme-color: #096dd9;
+:root {
+    --bg-color-float-blur: rgba(255, 255, 255, 0.8);
+    --bg-color-blur: rgba(255, 255, 255, 0.6);
+}
+
+body {
+    background-image:url(/bg.png);
+	background-size: cover;
+	background-position:center 0;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+
+html[data-theme=dark] body{
+    background: none;
+}
