@@ -2,12 +2,8 @@ import { sidebar } from "vuepress-theme-hope";
 
 export const Sidebar = sidebar({
   "/": [
-    "onboarding",
-    {
-      icon: "info",
-      text: "总论",
-      link: "总论/",
-    },
+    "欢迎",
+    "总论",
     {
       icon: "operator",
       text: "干员",
@@ -32,6 +28,16 @@ export const Sidebar = sidebar({
       collapsable: true,
       children: "structure",
     },
-    "indexes",
+    {
+      text: "编辑指南",
+      icon: "setting",
+      link: "编辑指南/",
+      prefix: "编辑指南/",
+      collapsable: true,
+      children: [
+        "","开始编辑","markdown","md-show","md-enhance","wikistyle","templates"
+      ],
+    },
+    "关于",
   ],
 });

@@ -14,7 +14,6 @@ export default {
   name: "linkIndex",
   created() {
     this.items = links
-    console.log(this.items)
   }
 };
 </script>

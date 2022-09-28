@@ -17,12 +17,14 @@
     "vuepress-theme-hope": "2.0.0-beta.103"
   },
   "dependencies": {
-    "markdown-it-wikilinks": "^1.2.0",
+    "@traptitech/markdown-it-regexp": "^0.5.3",
+    "markdown-it-regex": "^0.2.0",
+    "markdown-it-regexp": "^0.4.0",
     "pangu": "^4.0.7",
     "path-type": "^5.0.0",
     "vuepress-plugin-pangu": "^1.0.1"
   },
-  "rules":{
-    "no-console":"off"
+  "rules": {
+    "no-console": "off"
   }
 }

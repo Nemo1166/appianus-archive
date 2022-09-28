@@ -1,18 +1,70 @@
 // you can change colors here
 $theme-color: #096dd9;
+
 :root {
     --bg-color-float-blur: rgba(255, 255, 255, 0.8);
+    --border-color: #9f9f9f;
     --bg-color-blur: rgba(255, 255, 255, 0.6);
+    --tip-bg-color: #e6f6e6ca;
+    --info-bg-color: #eef9fdca;
+    --note-bg-color: #fdfdfeca;
+    --warning-bg-color: #fff8e6ca;
+    --danger-bg-color: #ffebecca;
+    --detail-bg-color: rgba(238, 238, 238, 0.759);
+    --bg-color-light: #ffffff82;
+    --waline-theme-color: var(--theme-color);
+    --waline-bg-color: var()
 }
 
 body {
-    background-image:url(/bg.png);
-	background-size: cover;
-	background-position:center 0;
-	background-repeat:no-repeat;
-	background-attachment:fixed;
+    background-image: url(/bg.png);
+    background-size: cover;
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
-html[data-theme=dark] body{
-    background: none;
+html[data-theme=light] {
+    .wl-panel {
+        background: rgba(255, 255, 255, 0.6);
+    }
+
+    #app {
+        --tab-bg-color: #ecf4fa67;
+        --tab-nav-bg-color: #c3def3;
+    }
+
+}
+
+html[data-theme=dark] {
+    body {
+        background: none;
+    }
+
+    tr {
+        background-color: #1d2025;
+    }
+
+    #app {
+        --tab-bg-color: #282c3467;
+        --tab-nav-bg-color: #1d2536;
+    }
+
+}
+
+tr {
+    background-color: #ffffffa1;
+}
+
+blockquote {
+    color: #444;
+}
+
+.tab-item {
+    background: var(--tab-bg-color);
+}
+
+.tab-list {
+    border: 0px;
+    border-radius: 8px 8px 0 0;
 }

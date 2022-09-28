@@ -1,0 +1,54 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\10502\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Users\10502\anaconda3;C:\Users\10502\anaconda3\Library\mingw-w64\bin;C:\Users\10502\anaconda3\Library\usr\bin;C:\Users\10502\anaconda3\Library\bin;C:\Users\10502\anaconda3\Scripts;C:\Users\10502\anaconda3\bin;C:\Users\10502\anaconda3\condabin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\libnvvp;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\libnvvp;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Polyspace\R2019a\runtime\win64;C:\Program Files\Polyspace\R2019a\bin;C:\Program Files\Polyspace\R2019a\polyspace\bin;C:\Program Files (x86)\NetSarang\Xshell 7;C:\Program Files (x86)\NetSarang\Xftp 7;C:\Program Files\Common Files\Autodesk Shared;C:\Program Files\Microsoft SQL Server\120\Tools\Binn;C:\Program Files\dotnet;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\Nsight Compute 2021.2.1;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files (x86)\dotnet;C:\Program Files\nodejs;C:\Program Files\Wolfram Research\WolframScript;C:\Users\10502\anaconda3;C:\Users\10502\anaconda3\Library\mingw-w64\bin;C:\Users\10502\anaconda3\Library\usr\bin;C:\Users\10502\anaconda3\Library\bin;C:\Users\10502\anaconda3\Scripts;C:\Users\10502\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip;C:\Users\10502\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\10502\AppData\Local\Pandoc;C:\Users\10502\AppData\Local\GitHubDesktop\bin;C:\Users\10502\Software\xmapp\php;C:\Users\10502\Software\ffmpeg\bin;C:\Users\10502\Software\nginx;C:\Users\10502\.dotnet\tools;C:\Program Files\netCDF 4.8.1\bin;C:\Program Files\Graphviz\bin;C:\Users\10502\AppData\Roaming\npm;C:\Users\10502\AppData\Local\Programs\EmEditor;C:\Users\10502\Software\android-platform-tools;C:\texlive\2022\bin\win32
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.14.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: UNKNOWN: unknown error, lstat 'C:\Users\10502\OneDrive - lanshow\泰讯\appianus-archive\node_modules\.path-type-9Lrp141M'
+
+npm manifest: 
+  {
+    "name": "appianus-archive",
+    "version": "1.0.0",
+    "description": "TRPG rules set",
+    "license": "CC-BY-NC-SA-4.0",
+    "type": "module",
+    "scripts": {
+      "docs:build": "vuepress build docs",
+      "docs:clean-dev": "vuepress dev docs --clean-cache",
+      "docs:dev": "vuepress dev docs"
+    },
+    "devDependencies": {
+      "@types/pangu": "^4.0.0",
+      "@vuepress/client": "2.0.0-beta.51",
+      "vue": "^3.2.29",
+      "vuepress": "2.0.0-beta.51",
+      "vuepress-theme-hope": "2.0.0-beta.103"
+    },
+    "dependencies": {
+      "@traptitech/markdown-it-regexp": "^0.5.3",
+      "markdown-it-regex": "^0.2.0",
+      "pangu": "^4.0.7",
+      "path-type": "^5.0.0",
+      "vuepress-plugin-pangu": "^1.0.1"
+    },
+    "rules": {
+      "no-console": "off"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -8,7 +8,7 @@ heroText: 亚庇安档案馆
 tagline: 泰拉漫游指南 - 明日方舟 TRPG 规则书 -
 actions:
   - text: Enter
-    link: /onboarding
+    link: /欢迎.html
     type: primary
 
 features:
@@ -22,10 +22,10 @@ features:
     details: 人事部的同事们每天都要处理巨量信息，但他们总是能从砂土中淘出那块属于罗德岛的黄金
     link: /干员/
 
-  - title: （示例）features
-    icon: orig-prime
-    details: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-    # link:
+  - title: 编辑指南
+    icon: setting
+    details: For 本馆馆员
+    link: /编辑指南/
 
   - title: （示例）features
     icon: guardian
