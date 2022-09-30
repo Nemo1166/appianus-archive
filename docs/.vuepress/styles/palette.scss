@@ -1,20 +1,18 @@
 // you can change colors here
 $theme-color: #096dd9;
 
-:root {
-    --bg-color-float-blur: rgba(255, 255, 255, 0.8);
-    --border-color: #9f9f9f;
-    --bg-color-blur: rgba(255, 255, 255, 0.6);
-    --tip-bg-color: #e6f6e6ca;
-    --info-bg-color: #eef9fdca;
-    --note-bg-color: #fdfdfeca;
-    --warning-bg-color: #fff8e6ca;
-    --danger-bg-color: #ffebecca;
-    --detail-bg-color: rgba(238, 238, 238, 0.759);
-    --bg-color-light: #ffffff82;
-    --waline-theme-color: var(--theme-color);
-    --waline-bg-color: var()
-}
+$bg-color-float-blur: rgba(255, 255, 255, 0.8);
+$border-color: #9f9f9f;
+$bg-color-blur: rgba(255, 255, 255, 0.6);
+$tip-bg-color: rgba(230, 246, 230, 0.792);
+$info-bg-color: rgba(238, 249, 253, 0.792);
+$note-bg-color: rgba(253, 253, 254, 0.792);
+$warning-bg-color: rgba(255, 248, 230, 0.792);
+$danger-bg-color: rgba(255, 235, 236, 0.792);
+$detail-bg-color: rgba(238, 238, 238, 0.759);
+$bg-color-light: rgba(255, 255, 255, 0.51);
+$waline-theme-color: var(--theme-color);
+
 
 body {
     background-image: url(/bg.png);

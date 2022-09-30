@@ -35,7 +35,7 @@ export const Sidebar = sidebar({
       prefix: "编辑指南/",
       collapsable: true,
       children: [
-        "","开始编辑","markdown","md-show","md-enhance","wikistyle","templates"
+        "","开始编辑","markdown","md-show","md-enhance","extension","templates"
       ],
     },
     "关于",

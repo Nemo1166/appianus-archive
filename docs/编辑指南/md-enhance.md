@@ -28,6 +28,7 @@ icon: co-upgrade
   - [组件](#组件)
     - [Badge](#badge)
     - [FontIcon](#fonticon)
+  - [Echarts 图表](#echarts-图表)
   - [HTML](#html)
 
 如需更多请留言。
@@ -689,6 +690,10 @@ PS: 正如你所见，[容器](#容器)可以多层嵌套。
 事实上，组件的本质是插入一个 Vue component ，换言之，只要定义好组件的样式，然后调用时填入特定参数，就可以生成风格统一的一组页面。然而正如我在[这里](./#一些约定)所言，需要设计哪些模板并没有确定，因此该项计划暂未实施。
 
 :::
+
+## Echarts 图表
+
+详见[这里](https://vuepress-theme-hope.github.io/v2/zh/guide/markdown/echarts.html)
 
 ## HTML
 

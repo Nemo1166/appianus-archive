@@ -3,6 +3,7 @@ import theme from "./theme.js";
 import { containerPlugin } from '@vuepress/plugin-container'
 
 import { wikilink, wikimedia } from "./wikiml/wikimarkup";
+import { pageTemplate } from "./wikiml/templates"
 
 export default defineUserConfig({
   base: "/",
@@ -22,6 +23,7 @@ export default defineUserConfig({
 
   extendsMarkdown: (md) => {
     md.use(wikilink)
+    .use(pageTemplate)
     .use(wikimedia)
   },
 

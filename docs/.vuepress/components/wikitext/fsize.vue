@@ -1,8 +1,12 @@
 <template>
-  <span :style="style">{{ output }}</span>
+  <span :style="style" v-html="output"></span>
 </template>
 
 <script>
+import MarkdownIt from 'markdown-it';
+
+var Md = new MarkdownIt();
+
 export default {
   name: "fsize",
   props: ["data"],
@@ -10,7 +14,7 @@ export default {
     if (this.data.indexOf("|")) {
       let data = this.data.replace("|", "}");
       let fsize = data.split("}")[0];
-      this.output = data.split("}")[1];
+      this.output = Md.renderInline(data.split("}")[1]);
       this.style = `font-size: ${fsize};`;
     } else {
       this.style = "";

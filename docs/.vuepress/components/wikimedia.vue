@@ -3,11 +3,11 @@
 </template>
 
 <script>
-import color from "./templates/color.vue";
-import styles from "./templates/styles.vue";
-import fsize from "./templates/fsize.vue";
-import heimu from "./templates/heimu.vue";
-import rubys from "./templates/rubys.vue";
+import color from "./wikitext/color.vue";
+import styles from "./wikitext/styles.vue";
+import fsize from "./wikitext/fsize.vue";
+import heimu from "./wikitext/heimu.vue";
+import rubys from "./wikitext/rubys.vue";
 
 export default {
   name: 'wikimedia',
