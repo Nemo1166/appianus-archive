@@ -619,24 +619,6 @@ PS: 正如你所见，[容器](#容器)可以多层嵌套。
 
 @tab 演示
 
-- <Badge text="tip" type="tip" vertical="middle" />
-- <Badge text="warning" type="warning" vertical="middle" />
-- <Badge text="danger" type="danger" vertical="middle" />
-- <Badge text="info" type="info" vertical="middle" />
-- <Badge text="note" type="note" vertical="middle" />
-
-@tab 配置
-
-- text: 徽章的文字
-  - 类型: `string`
-  - 必填: 是
-- type: 徽章的类型
-  - 类型: `"tip" | "warning" | "danger" | "info" | "note"`
-  - 默认值: `"info"`
-- color: 徽章的颜色，填入在 CSS 中合法的颜色值
-  - 类型: `string`
-  - 必填: 否
-
 <Badge text="tip" type="tip" vertical="middle" />
 <Badge text="warning" type="warning" vertical="middle" />
 <Badge text="danger" type="danger" vertical="middle" />
@@ -650,6 +632,18 @@ PS: 正如你所见，[容器](#容器)可以多层嵌套。
 <Badge text="info" type="info" vertical="middle" />
 <Badge text="note" type="note" vertical="middle" />
 ```
+
+@tab 配置
+
+- text: 徽章的文字
+  - 类型: `string`
+  - 必填: 是
+- type: 徽章的类型
+  - 类型: `"tip" | "warning" | "danger" | "info" | "note"`
+  - 默认值: `"info"`
+- color: 徽章的颜色，填入在 CSS 中合法的颜色值
+  - 类型: `string`
+  - 必填: 否
 
 :::
 
