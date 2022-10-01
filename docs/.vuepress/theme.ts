@@ -112,7 +112,7 @@ export default hopeTheme({
       lazyLoad: true,
       imageMark: true,
       mark: true,
-      mermaid: true,
+      // mermaid: true,
       tasklist: true,
       // playground: {
       //   presets: ["ts", "vue"],
