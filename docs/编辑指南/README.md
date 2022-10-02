@@ -1,17 +1,15 @@
 ---
+title: 编辑指南
 icon: setting
 category:
    - 编辑指南
 ---
-
-# 编辑指南
 
 ## 关于项目
 
 本项目基于 [vuepress-theme-hope](https://vuepress-theme-hope.github.io/v2/zh/) 构建，托管于 [GitHub](https://github.com/Nemo1166/appianus-archive) 并使用 Vercel 构建与分发。
 
 ::: tip 为什么选它
-
 - 界面好看
 - 兼容 Markdown 语法 - 我为什么要在 wiki 里手搓 HTML？
 - 扩展性强
@@ -44,7 +42,7 @@ category:
 
 ### 在本地编辑并且实时查看效果
 
-需要准备的工具：[Visual Studio Code](https://code.visualstudio.com/)
+需要准备的工具：[Visual Studio Code](https://code.visualstudio.com/) （不要害怕，上手难度很低的）
   - 安装完毕后，请前往插件市场![](./image/README/1664722954334.png =x28)安装以下插件:
     - Remote - SSH （必要的）
     - 简体中文 Language pack （推荐）
