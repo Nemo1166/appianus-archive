@@ -1,6 +1,9 @@
 ---
 icon: operator-s
 title: 职业
+dir:
+  link: true
+  order: 2
 ---
 
 ## 职业一览
