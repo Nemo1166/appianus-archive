@@ -224,7 +224,9 @@ PS: 或许您更熟悉且喜欢使用这种写法，但我仍建议您考虑一�
 
 ### 含图标的名词链接
 
-部分特有名词自动加图标并支持跳转。[查看全部图标](https://www.npmjs.com/package/akicons) ![npm](https://img.shields.io/npm/v/akicons?label=akicons&logo=npm)
+![npm](https://img.shields.io/npm/v/akicons?logo=npm&style=for-the-badge)
+
+部分特有名词自动加图标并支持跳转。[查看全部图标](https://www.npmjs.com/package/akicons)
 
 [另一种](./md-enhance.html#fonticon)插入图标的方式
 
